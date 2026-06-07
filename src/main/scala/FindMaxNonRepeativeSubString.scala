@@ -5,7 +5,7 @@ Output : "abcdex
 
 object FindMaxNonRepeativeSubString {
   def main(args:Array[String]): Unit = {
-    val str = "abbabcdexeabc"
+    val str = "abbacbcdexab"
     println(str)
     var maxlength = 0;
     var start = 0;
